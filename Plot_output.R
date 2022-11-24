@@ -8,9 +8,13 @@
 res= 300
 cex.legend = 0.5
 cex.lab = 0.7
-file_path <- ""
-obs_path  <- file_path"
+file_path <- "./"
+obs_path  <- file_path
+
+#obs_path <- ""
 figs_path <- paste0(file_path,"Figures/")
+#specs similar across plots:
+runs_col   <- safe_colorblind_palette <- c("#E6AB02","#1B9E77", "#D95F02", "#7570B3", "#666666","#E7298A", "#66A61E", "#E6AB02", "#D55E00","#56B4E9")
 
 # Parameters taken from the literature and calculated from observations
 # used for conversions in this script
