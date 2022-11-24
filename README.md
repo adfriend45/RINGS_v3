@@ -3,12 +3,12 @@ RINGS code used for the Nature Communications resubmission.
 
 The code can be compiled using the makefile, 
 
-(note that macos users may have to specify
+[note that macOS users may have to specify
 ``LDLIBS = -L/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/lib``
 and change the line 
-``$(F90) $(FFLAGS) -o RINGS_v3.exe $(OBJ) $(LDFLAGS)``
+``$(F90) $(FFLAGS) -o RINGS_v3.exe $(OBJ) $(LDFLAGS)`` 
 to
-``$(F90) $(FFLAGS) -o RINGS_v3.exe $(OBJ) $(LDLIBS)``
+``$(F90) $(FFLAGS) -o RINGS_v3.exe $(OBJ) $(LDLIBS)``]
 
 Execute the model doing ``./RINGS_v3.exe``
 
