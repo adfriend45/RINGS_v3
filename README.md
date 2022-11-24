@@ -38,4 +38,5 @@ run:
 
 An example of what the model simulates is below:
 
-[Cell mass density profile of a single simulation year](Figures/annual_densprof_single.jpeg)
+![Cell mass density profile of multiple simulation years, and their mean.](Figures/annual_densprof_combined.jpeg)
+
